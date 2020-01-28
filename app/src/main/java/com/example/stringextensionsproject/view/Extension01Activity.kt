@@ -2,8 +2,6 @@ package com.example.stringextensionsproject.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.EditText
 import android.widget.Toast
 import com.example.stringextensionsproject.R
 import com.example.stringextensionsproject.extensions.*
@@ -25,7 +23,7 @@ class Extension01Activity : AppCompatActivity() {
 
     private fun initListeners(){
         btn_transformar.setOnClickListener {
-            var inputText : String = edt_input.text.toString()
+            var inputText : String = edt_input_data.text.toString()
             val masktype = "##-##-####"
 
             if(inputText.isNullOrEmpty()){
