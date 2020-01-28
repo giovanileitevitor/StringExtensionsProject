@@ -5,8 +5,9 @@ import java.util.*
 
 /**
  * Extensao para aplicaçao de máscaras genéricas
- * input: String
- * output: String with mask applied
+ * input: String (0..9 - a..X)
+ * output: String com a máscara aplicada
+ * obs: método nao faz verificaçao se a string possui letras ou numeros
  */
 fun String.applyMask(mask: String): String {
     var oldString = this
@@ -24,6 +25,11 @@ fun String.applyMask(mask: String): String {
     return oldString
 }
 
+/**
+ * Extensao para aplicacao de máscara monetária (Real R$)
+ * input: string (0..9)
+ * ouput: string com a mascara aplicada (
+ */
 fun String.applyMoneyMask(): String {
     var formattedValue = replace("[^0-9]".toRegex(), "")
     val numberFormat = NumberFormat.getCurrencyInstance(Locale("pt", "BR"))

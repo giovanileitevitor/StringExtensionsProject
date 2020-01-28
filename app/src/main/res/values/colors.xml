@@ -3,4 +3,6 @@
     <color name="colorPrimary">#9575cd</color>
     <color name="colorPrimaryDark">#9575cd</color>
     <color name="colorAccent">#9575cd</color>
+    <color name="corAprovada">#00701a</color>
+    <color name="corReprovada">#ab000d</color>
 </resources>

@@ -28,7 +28,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn_ext02.setOnClickListener{
-            Toast.makeText(this, "Função em desenvolvimento...", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, Extension02Activity::class.java)
+            startActivity(intent)
         }
 
         btn_ext03.setOnClickListener{
