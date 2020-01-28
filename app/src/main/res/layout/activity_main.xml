@@ -14,6 +14,7 @@
         android:layout_marginTop="20dp"
         android:text="Kotlin Extensions "
         android:textSize="32sp"
+        android:textColor="@android:color/black"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,7 +46,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Extension 01 ......"
+            android:text="Extension ( Data / Money )"
             android:layout_marginLeft="20dp"
             android:textColor="@android:color/black"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -81,15 +82,17 @@
             android:layout_height="wrap_content"
             android:text="Extension 02 ......"
             android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <ImageView
             android:id="@+id/btn_ext02"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="Go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launch_black_24dp"
+            android:layout_marginRight="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -113,15 +116,17 @@
             android:layout_height="wrap_content"
             android:text="Extension 03 ......"
             android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <ImageView
             android:id="@+id/btn_ext03"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="Go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launch_black_24dp"
+            android:layout_marginRight="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
