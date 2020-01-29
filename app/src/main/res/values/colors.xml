@@ -5,4 +5,5 @@
     <color name="colorAccent">#9575cd</color>
     <color name="corAprovada">#00701a</color>
     <color name="corReprovada">#ab000d</color>
+    <color name="corFundoCinza">#cfd8dc</color>
 </resources>
