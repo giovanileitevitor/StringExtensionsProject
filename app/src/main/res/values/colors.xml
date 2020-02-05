@@ -3,7 +3,16 @@
     <color name="colorPrimary">#9575cd</color>
     <color name="colorPrimaryDark">#9575cd</color>
     <color name="colorAccent">#9575cd</color>
+    <color name="corBrancaTexto">#ffffff</color>
     <color name="corAprovada">#00701a</color>
     <color name="corReprovada">#ab000d</color>
-    <color name="corFundoCinza">#cfd8dc</color>
+    <color name="corFundoCinza">#f5f5f5</color>
+    <color name="corFundoLaranja">#ff8f00</color>
+    <color name="corFundoRoxa">#9575cd</color>
+    <color name="corFundoBranco">#fafafa</color>
+
+    <color name="corTextoRoxa">#9575cd</color>
+
+    <color name="corButtonRoxa">#9575cd</color>
+
 </resources>

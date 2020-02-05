@@ -5,31 +5,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/corFundoCinza"
+    android:id="@+id/constraint01"
     tools:context=".view.SplashActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_fundo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fundotela01"
+        android:contentDescription="@string/imageBackgroundDescription"/>
+
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kotlin Extensions"
-        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rounded_corner_item_branco"
+        android:text="@string/appTitleText"
         android:textAlignment="center"
-        android:layout_margin="10dp"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/rounded_corner_item"/>
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="200dp"
-        android:layout_height="327dp"
-        android:layout_marginStart="113dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="113dp"
-        android:layout_marginBottom="200dp"
-        android:src="@drawable/kotlinlogo02"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/corBrancaTexto"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,14 +35,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Conjunto de extensoes e exemplos uteis para utilizar todo o poder das Extensões para a linguagem Kotlin"
+        android:background="@drawable/rounded_corner_item_branco"
+        android:text="@string/appSubtitleText"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/corBrancaTexto"
         android:textSize="14sp"
-        android:layout_margin="10dp"
-        android:background="@drawable/rounded_corner_item"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        tools:layout_editor_absoluteX="16dp" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

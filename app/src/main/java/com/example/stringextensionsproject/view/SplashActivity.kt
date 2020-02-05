@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
+import com.bumptech.glide.Glide
 import com.example.stringextensionsproject.R
+import kotlinx.android.synthetic.main.activity_extension01.*
+import kotlinx.android.synthetic.main.activity_splash.*
 
 class SplashActivity : AppCompatActivity() {
 
@@ -15,6 +18,8 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+
+        Glide.with(this).load(R.drawable.fundotela01).into(image_fundo)
 
         myHandler = Handler()
         myHandler.postDelayed(

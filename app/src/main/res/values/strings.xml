@@ -3,4 +3,7 @@
     <string name="app_name_title">Kotlin Extensions</string>
     <string name="extension_data_money">Extension ( Data / Money )</string>
     <string name="extension_cnpj_cpf">Extension ( CNPJ / CPF )</string>
+    <string name="imageBackgroundDescription">image-backgrond</string>
+    <string name="appTitleText">Kotlin Extensions</string>
+    <string name="appSubtitleText">Conjunto de extensoes e exemplos uteis   para utilizar todo o poder das Extensões  para a linguagem Kotlin</string>
 </resources>
